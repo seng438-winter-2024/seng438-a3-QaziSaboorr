@@ -63,8 +63,19 @@ Use a range and test with a value below its lower bound, asserting that contains
 This test improves branch coverage by ensuring conditions checking if a value is within the range are correctly evaluated.
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
+## Range 
 
-Text…
+testConstructorWithInvalidBounds: Increases method coverage by invoking the constructor in an invalid usage scenario. It also enhances statement coverage by executing the exception-throwing code path within the constructor.
+
+testGetLength: This test case systematically increases statement coverage by invoking getLength on ranges of varying lengths, including edge cases like zero-length ranges. It helps in validating the correctness of the range length calculation logic.
+
+testShiftWithExtremeDelta: Significantly impacts branch coverage by triggering boundary conditions within the shift method, especially handling cases where shifting results in values that exceed the floating-point range, potentially touching upon overflow behavior.
+
+testCombineRangeWithItself: Boosts both method and statement coverage. It uniquely tests the combine method's behavior when the same range is used as both arguments, verifying the method's handling of such scenarios and ensuring idempotency.
+
+testContainsValueBelowLowerBound: Enhances branch coverage by testing a specific branch within the contains method—when the value is below the lower bound of the range. This case is crucial for validating the correctness of boundary condition checks within the method.
+
+
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 

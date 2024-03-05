@@ -16,6 +16,8 @@ In this lab we dove into the coverage matrix and analyzed Instruction Coverage, 
 ![du-pairs](https://github.com/seng438-winter-2024/seng438-a3-QaziSaboorr/assets/113058986/21ae0e27-7235-40e8-af85-25ac9970c1aa)
 
 ## DataUtilities
+![Lab_3_DFG-2](https://github.com/seng438-winter-2024/seng438-a3-QaziSaboorr/assets/113921998/36151bbd-df7a-4854-93a3-2f2e352d7fc8)
+![Lab_3_DFG-1](https://github.com/seng438-winter-2024/seng438-a3-QaziSaboorr/assets/113921998/392bd8f3-e2e6-4c73-893f-06efe5f3b6e5)
 
 # 3 A detailed description of the testing strategy for the new unit test
 ## Range

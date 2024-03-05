@@ -70,7 +70,9 @@ Text…
 
 ## Ranges
 ![Image 2024-03-04 at 8 57 PM](https://github.com/seng438-winter-2024/seng438-a3-QaziSaboorr/assets/113058986/85da91d9-5e3a-48fc-aab7-6cedf087e85f)
+![C1BB1FAE-3C5A-4A77-AA48-6918EB9A656A](https://github.com/seng438-winter-2024/seng438-a3-QaziSaboorr/assets/113058986/b5422410-8a1e-416a-9c7a-cb89d3503f8f)
 
+In the above context we werent able to retrieve a statment coverage, due to the constructor class. The constructor class initially checks if the lower bound is greater than the upper bound. In the conceding methods we werent able to check some of the statments due to this requirment already being met. This results in us not being able to use these statments and lowering pur statment coverage. This is demonstrated in the image above.
 
 
 # 6 Pros and Cons of coverage tools used and Metrics you report

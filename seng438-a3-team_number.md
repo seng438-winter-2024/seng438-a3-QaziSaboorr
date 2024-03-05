@@ -26,7 +26,7 @@ In this lab we dove into the coverage matrix and analyzed Instruction Coverage, 
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-Text…
+
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 

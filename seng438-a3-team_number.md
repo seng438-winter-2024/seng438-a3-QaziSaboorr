@@ -26,6 +26,7 @@ In this lab we dove into the coverage matrix and analyzed Instruction Coverage, 
 
 # 3 A detailed description of the testing strategy for the new unit test
 
+## Range
 Detailed Testing Strategy for Selected New Unit Tests
 1. testConstructorWithInvalidBounds
 Objective: Ensure the Range constructor throws an IllegalArgumentException when given a lower bound greater than the upper bound.

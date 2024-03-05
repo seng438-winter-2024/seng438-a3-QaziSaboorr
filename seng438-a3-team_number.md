@@ -18,7 +18,7 @@ In this lab we dove into the coverage matrix and analyzed Instruction Coverage, 
 
 
 # 2 Manual data-flow coverage calculations for X and Y methods
-**Ranges**
+***Ranges**
 ![DFG](https://github.com/seng438-winter-2024/seng438-a3-QaziSaboorr/assets/113058986/e5f4a536-d0b2-4ea2-91e8-2e84cee99c5c)
 
 ![du-pairs](https://github.com/seng438-winter-2024/seng438-a3-QaziSaboorr/assets/113058986/21ae0e27-7235-40e8-af85-25ac9970c1aa)

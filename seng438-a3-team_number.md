@@ -2,12 +2,12 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:      |     |
+| Group \#:      |   17  |
 | -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Student Names: |Rohan Kapila|
+|                |Qazi Ali|
+|                |Fayzan Toor|
+|                |Shayyan Asim|
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)

@@ -26,7 +26,40 @@ In this lab we dove into the coverage matrix and analyzed Instruction Coverage, 
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-
+Detailed Testing Strategy for Selected New Unit Tests
+1. testConstructorWithInvalidBounds
+Objective: Ensure the Range constructor throws an IllegalArgumentException when given a lower bound greater than the upper bound.
+Method Under Test: Range(double lower, double upper)
+Strategy:
+Invoke the constructor with a lower bound greater than the upper bound (e.g., new Range(2, 1)).
+Use JUnit's expected exception mechanism to verify that an IllegalArgumentException is thrown.
+This test directly increases method and statement coverage by exercising constructor validation logic.
+2. testGetLength
+Objective: Verify that the getLength method accurately calculates the length of the range.
+Method Under Test: getLength()
+Strategy:
+Create ranges with known lengths (including zero and positive values).
+Assert that getLength returns the correct value for each range.
+This test increases statement coverage by exercising the calculation path within getLength.
+3. testShiftWithExtremeDelta
+Objective: Examine the behavior of the shift method when shifting a range by extremely large positive and negative deltas.
+Method Under Test: shift(Range base, double delta, boolean allowZeroCrossing)
+Strategy:
+Shift a range by Double.MAX_VALUE and -Double.MAX_VALUE to test the handling of extreme values.
+Verify that the resulting range's bounds are correctly adjusted, including checks for infinity bounds if applicable.
+This test contributes to branch coverage by covering code paths that handle large shifts, potentially testing overflow behavior.
+4. testCombineRangeWithItself
+Objective: Confirm that combining a range with itself returns a range equal to the original.
+Method Under Test: combine(Range range1, Range range2)
+Strategy:
+Combine a range with itself and verify that the result is equal to the original range.
+This test enhances method and statement coverage, particularly testing the idempotency of the combine method.
+5. testContainsValueBelowLowerBound
+Objective: Test the contains method to ensure it correctly identifies values below the range's lower bound.
+Method Under Test: contains(double value)
+Strategy:
+Use a range and test with a value below its lower bound, asserting that contains returns false.
+This test improves branch coverage by ensuring conditions checking if a value is within the range are correctly evaluated.
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 

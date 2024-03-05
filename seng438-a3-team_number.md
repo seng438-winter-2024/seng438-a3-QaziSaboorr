@@ -14,7 +14,8 @@ for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-Text…
+In this lab we dove into the coverage matrix and analyzed Instruction Coverage, Branch Coverage, Lines Coverage, Method Cover, Complexity Coverage, and Types Coverage using the EclEmma Coverage tools. Given these tools we were able to learn more about testing methods and enhance our programs. 
+
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 

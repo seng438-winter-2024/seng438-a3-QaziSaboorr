@@ -73,8 +73,62 @@ Text…
 ![Image 2024-03-04 at 8 57 PM](https://github.com/seng438-winter-2024/seng438-a3-QaziSaboorr/assets/113058986/85da91d9-5e3a-48fc-aab7-6cedf087e85f)
 ![C1BB1FAE-3C5A-4A77-AA48-6918EB9A656A](https://github.com/seng438-winter-2024/seng438-a3-QaziSaboorr/assets/113058986/b5422410-8a1e-416a-9c7a-cb89d3503f8f)
 In the above context we werent able to retrieve a statment coverage, due to the constructor class. The constructor class initially checks if the lower bound is greater than the upper bound. In the conceding methods we werent able to check some of the statments due to this requirment already being met. This results in us not being able to use these statments and lowering pur statment coverage. This is demonstrated in the image above.
+
 # 6 Pros and Cons of coverage tools used and Metrics you report
-Text…
+
+EclEmma:
+  P:
+    Covers the majority of the key metrics we were looking to solve. 
+    Easily Compatible with the Eclipse IDE.
+    Easy visualization of metric Coverages
+	C:
+    EclEmma lacks the condition coverage metric.
+
+Instruction Coverage:
+	P:
+    Instruction coverage is very simple and easy to calculate. It is the measurement of the number of lines that are executed.
+    Provides a source of detection allowing for tests to be generated based off segments that aren't executed.
+	C:
+    Does not provide a great indication in the quality of tests. Although excess lines can be run it doesn't mean that all tests are executed.
+    Branch Coverage
+	P:
+    Finds components of codes that arent tested by checking each branch (conditional statements) 
+    Typically more thorough than instruction coverage because it test each point in which a condition is met and potentially returned.
+	C:
+    It is very difficult to obtain complete branch coverage. Complex code also can lead to all bugs not being found.
+    All conditions may not have their bugs found.
+	
+Line Coverage:
+	P:
+    Simple and easy to calculate, works on executable lines of code rather than machine level lines of code. 
+    Similar to instruction coverage in sense that it can discover untested units of code.
+	C:
+    Can have missing test cases for a line of code that has been tested.
+    Not as detailed as instruction as it works on executable lines of code rather than machine codes. May overestimate lines that carry multiple decisions.
+    
+Method Coverage:
+	P:
+    Ensure each method in the code is called one or more times. It ensures that basic test cases are covered.
+    Make sure each method is tested, and any missing methods are identified.
+	C:
+    Each method may not be fully tested of all its components. Does Not ensure the method is functioning at a 100% success rate.
+    Doesnt test multitude of inputs passed into functions. Hence it also doesnt test every path. This relates to the previous bullet point.
+Complexity Coverage:
+	P:
+    Detail oriented, in the sense that it tests areas that are more likely to have bugs.
+    Has the potential to improve the quality of code, by simplifying complex aspects of code while reducing bugs.
+  C:
+    Harder to measure and calculate, especially when dealing with more intricate code.
+    Although detail oriented, may not test all function and scenarios of code
+Types Coverage:
+	P:
+    Tests a variety of input types to methods and functions.
+    Common for statically typed programming languages.
+    Identify type errors, type usage and type conversion
+  C:
+    Typically used in staticaly typed programming languages. May have  a lack of relevance in regard to dynamically typed programming languages.
+    Large number of type test cases to cover all scenarios.
+
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 Text…
 # 8 A discussion on how the team work/effort was divided and managed

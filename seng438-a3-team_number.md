@@ -34,7 +34,9 @@ Text…
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+##Ranges
+![Image 2024-03-04 at 8 57 PM](https://github.com/seng438-winter-2024/seng438-a3-QaziSaboorr/assets/113058986/85da91d9-5e3a-48fc-aab7-6cedf087e85f)
+
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 

@@ -19,7 +19,7 @@ In this lab we dove into the coverage matrix and analyzed Instruction Coverage, 
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
-Text…
+
 
 # 3 A detailed description of the testing strategy for the new unit test
 
